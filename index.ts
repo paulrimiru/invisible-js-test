@@ -1,3 +1,5 @@
-const helloWorld = (name: string) => console.log('Hello world ' + name);
+require('dotenv').config()
 
-helloWorld('paul')
+import { getWeather } from './src';
+
+getWeather([['Dubai'], ['', '10005'], ['Nairobi']]);
