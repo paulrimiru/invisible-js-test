@@ -4,8 +4,8 @@
   "description": "solution for invisible js test",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node index.ts",
-    "test": "test"
+    "start": "node -r ts-node/register index.ts",
+    "test": "mocha --require ts-node/register ./**/*.spec.ts"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,20 @@
     "url": "https://github.com/paulrimiru/invisible-js-test/issues"
   },
   "homepage": "https://github.com/paulrimiru/invisible-js-test#readme",
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.19.0",
+    "fp-ts": "^2.0.5",
+    "moxios": "^0.4.0"
+  },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/chai": "^4.2.3",
+    "@types/mocha": "^5.2.7",
+    "@types/moxios": "^0.4.9",
+    "@types/sinon": "^7.0.13",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "sinon": "^7.5.0",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.3"
   }

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": false,
+    "module": "commonjs",
+    "target": "es2017",
+    "rootDir": ".",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "esModuleInterop": true
+  },
+  "include": [
+    "./**/*.ts"
+  ]
+}
