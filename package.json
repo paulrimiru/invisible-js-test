@@ -1,0 +1,28 @@
+{
+  "name": "inviscible-test",
+  "version": "1.0.0",
+  "description": "solution for invisible js test",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/paulrimiru/invisible-js-test.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Paul Rimiru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulrimiru/invisible-js-test/issues"
+  },
+  "homepage": "https://github.com/paulrimiru/invisible-js-test#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
+}
